@@ -10,9 +10,9 @@ exports.updateAnime = factory.updateOne(Anime);
 exports.deleteAnime = factory.deleteOne(Anime);
 
 exports.aliasTopAnimes = (req, res, next) => {
-    req.query.limit = '5';
+    req.query.limit = '7';
     req.query.sort = '-rating';
-    req.query.fields = 'name,rating';
+    req.query.fields = 'name,rating,image';
     next();
 };
 

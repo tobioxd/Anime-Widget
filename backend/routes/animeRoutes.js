@@ -9,7 +9,7 @@ const router = express.Router();
 router.use("/:animeId/reviews", reviewRouter);
 
 router
-  .route("/top-5-anime")
+  .route("/top-7-anime")
   .get(animeController.aliasTopAnimes, animeController.getAllAnimes);
 
 router.route("/anime-stats").get(animeController.getAnimeStats);
