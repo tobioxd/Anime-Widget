@@ -3,9 +3,11 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "node_modules/react-router-dom/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
-}
+  // eslint-disable-next-line no-undef
+  plugins: [require("flowbite/plugin")],
+};

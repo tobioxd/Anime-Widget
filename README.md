@@ -1,1 +1,1 @@
-# MyAnimeList
+# Anime Widget
