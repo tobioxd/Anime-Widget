@@ -12,6 +12,8 @@ router
   .route("/top-7-anime")
   .get(animeController.aliasTopAnimes, animeController.getAllAnimes);
 
+router.route("/anime-list").get(animeController.getAnimeList, animeController.getAllAnimes);
+
 router.route("/anime-stats").get(animeController.getAnimeStats);
 
 router

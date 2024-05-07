@@ -15,11 +15,18 @@ const userSchema = new monggoose.Schema({
     lowercase: true,
     validate: [validator.isEmail, 'Please provide a valid email'],
   },
-  photo: String,
+  photo: {
+    type: String,
+    default: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png  ',
+  },
   role: {
     type: String,
     enum: ['user', 'guide', 'lead-guide', 'admin'],
     default: 'user',
+  },
+  bio:{
+    type: String,
+    default: 'I am a wjubu'
   },
   password: {
     type: String,

@@ -7,11 +7,14 @@ const authController = require('../controllers/authController');
 
 const router = express.Router({ mergeParams: true });
 
+router
+  .route('/')
+  .get(reviewController.getAllReviews)
+
 router.use(authController.protect);
 
 router
   .route('/')
-  .get(reviewController.getAllReviews)
   .post(
     authController.restricTo('user'),
     reviewController.setAnimeUserIds,
@@ -22,12 +25,13 @@ router
   .route('/:id')
   .get(reviewController.getReview)
   .patch(
-    authController.restricTo('user', 'admin'),
+    authController.restricTo('user'),
     reviewController.updateReview
   )
   .delete(
-    authController.restricTo('user', 'admin'),
+    authController.restricTo('user'),
     reviewController.deleteReview
   );
+
 
 module.exports = router;

@@ -6,7 +6,7 @@ const FavouriteAnime = () => {
     const [animes, setAnime] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:3000/api/v1/animes/top-7-anime')
+        fetch(import.meta.env.VITE_BACKEND_URL + '/api/v1/animes/top-7-anime')
         .then(res => res.json())
         .then(data => {
             setAnime(data)

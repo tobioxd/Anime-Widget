@@ -26,6 +26,14 @@ const reviewSchema = new mongoose.Schema({
         type: mongoose.Schema.ObjectId,
         ref: 'User',
         required: [true, 'Review must belong to a user']
+    },
+    likes: {
+        type: Number,
+        default: 0
+    },
+    dislikes: {
+        type: Number,
+        default: 0
     }
     },
     {
@@ -68,7 +76,7 @@ reviewSchema.statics.calcAverageRatings = async function(animeId) {
     else {
       await Anime.findByIdAndUpdate(animeId, {
         ratingsQuantity: 0,
-        rating: 4.5
+        rating: 0
       });
     }
   };

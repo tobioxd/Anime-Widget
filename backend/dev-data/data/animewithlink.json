@@ -1,0 +1,892 @@
+[
+    {
+        "_id": "5c88fa8cf4afda39709c2955",
+        "name": "My Hero Academia",
+        "rating": 9.7,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 13,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Super Power",
+            "School",
+            "Shounen"
+        ],
+        "description": "My Hero Academia is a Japanese manga series written and illustrated by Kōhei Horikoshi. It has been serialized in Weekly Shōnen Jump since July 2014, and 20 volumes have been collected in tankōbon format.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1985/96688l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 3, 2016 to Jun 26, 2016",
+        "producers": [
+            "Dentsu, Mainichi Broadcasting System, Movic, Sony Music Entertainment, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Bones"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1109/92566l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1647/114626l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1949/92570l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/D5fYOnwYkj4"
+        ],
+        "id": "5c88fa8cf4afda39709c2955"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2958",
+        "name": "My Hero Academia 4",
+        "rating": 9,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 25,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Super Power",
+            "School",
+            "Shounen"
+        ],
+        "description": "My Hero Academia 4 is a Japanese manga series written and illustrated by Kōhei Horikoshi. It has been serialized in Weekly Shōnen Jump since July 2014, and 20 volumes have been collected in tankōbon format.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1315/102961l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Oct 12, 2019 to Apr 4, 2020",
+        "producers": [
+            "Dentsu, Mainichi Broadcasting System, Movic, Sony Music Entertainment, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Bones"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1251/97634l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1120/104958l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1437/105243l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/5VQwDC5jqzQ"
+        ],
+        "id": "5c88fa8cf4afda39709c2958"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2959",
+        "name": "My Hero Academia 5",
+        "rating": 10,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 25,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Super Power",
+            "School",
+            "Shounen"
+        ],
+        "description": "My Hero Academia 5 is a Japanese manga series written and illustrated by Kōhei Horikoshi. It has been serialized in Weekly Shōnen Jump since July 2014, and 20 volumes have been collected in tankōbon format.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1762/112375l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 3, 2021 to Jun 26, 2021",
+        "producers": [
+            "Dentsu, Mainichi Broadcasting System, Movic, Sony Music Entertainment, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Bones"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1544/115944l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1502/109585l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1390/117243l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/kkmW-tppFPM"
+        ],
+        "id": "5c88fa8cf4afda39709c2959"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2960",
+        "name": "My Hero Academia 6",
+        "rating": 7,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 25,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Super Power",
+            "School",
+            "Shounen"
+        ],
+        "description": "My Hero Academia 6 is a Japanese manga series written and illustrated by Kōhei Horikoshi. It has been serialized in Weekly Shōnen Jump since July 2014, and 20 volumes have been collected in tankōbon format.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1483/126005l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Oct 2, 2021 to Mar 26, 2022",
+        "producers": [
+            "Dentsu, Mainichi Broadcasting System, Movic, Sony Music Entertainment, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Bones"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1739/93536l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1838/93535l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1619/91789l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/nTWeiY3yZRs"
+        ],
+        "id": "5c88fa8cf4afda39709c2960"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2961",
+        "name": "One Punch Man",
+        "rating": 9,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 12,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Parody",
+            "Super Power",
+            "Supernatural",
+            "Seinen"
+        ],
+        "description": "One Punch Man is a Japanese superhero webcomic created by the artist ONE. It tells the story of Saitama, a superhero who can defeat any opponent with a single punch but seeks to find a worthy opponent after growing bored with his overwhelming strength.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/12/76049l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Oct 5, 2015 to Dec 21, 2015",
+        "producers": [
+            "TV Tokyo, Bandai Visual, Lantis, Asatsu DK, Banpresto, Good Smile Company, Shueisha, East Japan Marketing & Communications"
+        ],
+        "studios": [
+            "Madhouse"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/7/72533l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1536/91495l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1797/93459l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/Poo5lqoWSGw"
+        ],
+        "id": "5c88fa8cf4afda39709c2961"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2957",
+        "name": "My Hero Academia 3",
+        "rating": 8.8,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 25,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Super Power",
+            "School",
+            "Shounen"
+        ],
+        "description": "My Hero Academia 3 is a Japanese manga series written and illustrated by Kōhei Horikoshi. It has been serialized in Weekly Shōnen Jump since July 2014, and 20 volumes have been collected in tankōbon format.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1319/92084l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 7, 2018 to Sep 29, 2018",
+        "producers": [
+            "Dentsu, Mainichi Broadcasting System, Movic, Sony Music Entertainment, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Bones"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1619/91789l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1838/93535l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1739/93536l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/wMCeFIPwrHE"
+        ],
+        "id": "5c88fa8cf4afda39709c2957"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2963",
+        "name": "Haikyuu!!",
+        "rating": 9,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 25,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Comedy",
+            "Sports",
+            "Drama",
+            "School",
+            "Shounen"
+        ],
+        "description": "Haikyuu!! is a Japanese manga series written and illustrated by Haruichi Furudate. It follows the story of Shoyo Hinata, a high school student who aspires to become a great volleyball player despite his short stature. He joins the Karasuno High School volleyball team and together with his teammates, they aim to compete in national tournaments.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/4/60431l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 6, 2014 to Sep 21, 2014",
+        "producers": [
+            "Mainichi Broadcasting System, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Production I.G"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/8/59955l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/12/69839l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/6/66815l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/KhZG9Uw7PxM"
+        ],
+        "id": "5c88fa8cf4afda39709c2963"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2956",
+        "name": "My Hero Academia 2",
+        "rating": 8.8,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 25,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Super Power",
+            "School",
+            "Shounen"
+        ],
+        "description": "My Hero Academia 2 is a Japanese manga series written and illustrated by Kōhei Horikoshi. It has been serialized in Weekly Shōnen Jump since July 2014, and 20 volumes have been collected in tankōbon format.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/12/85221l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 1, 2017 to Sep 30, 2017",
+        "producers": [
+            "Dentsu, Mainichi Broadcasting System, Movic, Sony Music Entertainment, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Bones"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/2/87465l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1697/92558l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1346/92560l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/ayeDDe8eN1E"
+        ],
+        "id": "5c88fa8cf4afda39709c2956"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2965",
+        "name": "Haikyuu!! Third Season",
+        "rating": 9,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 10,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Comedy",
+            "Sports",
+            "Drama",
+            "School",
+            "Shounen"
+        ],
+        "description": "Haikyuu!! Third Season depicts the intense battle between the Karasuno High School volleyball team and their strongest rivals, Shiratorizawa Academy. As they compete in the Spring High School Volleyball Nationals, the players give their all to achieve victory and prove their worth on the national stage.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/7/81992l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Oct 8, 2016 to Dec 10, 2016",
+        "producers": [
+            "Mainichi Broadcasting System, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Production I.G"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/2/79231l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/11/79115l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/12/85002l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/kJfU5boNUIE"
+        ],
+        "id": "5c88fa8cf4afda39709c2965"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2966",
+        "name": "Haikyuu!! Fourth Season",
+        "rating": 8,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 13,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Comedy",
+            "Sports",
+            "Drama",
+            "School",
+            "Shounen"
+        ],
+        "description": "Haikyuu!! Fourth Season continues the story of the Karasuno High School volleyball team as they face new challenges and strive to reach the national tournament. With their determination and teamwork, they aim to surpass their limits and prove themselves as one of the top teams in Japan.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1694/104929l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Jan 11, 2020 to Apr 4, 2020",
+        "producers": [
+            "Mainichi Broadcasting System, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Production I.G"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1884/97729l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1782/103197l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1241/106824l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/gJv9fFJmnCA"
+        ],
+        "id": "5c88fa8cf4afda39709c2966"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2967",
+        "name": "Kimetsu no Yaiba",
+        "rating": 9,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 26,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Demons",
+            "Historical",
+            "Shounen",
+            "Supernatural"
+        ],
+        "description": "Kimetsu no Yaiba, also known as Demon Slayer, is a Japanese manga series written and illustrated by Koyoharu Gotouge. It follows the story of Tanjiro Kamado, a young boy who becomes a demon slayer after his family is slaughtered and his sister Nezuko is turned into a demon. Tanjiro sets out on a journey to avenge his family and find a cure for his sister's condition.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1286/99889l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 6, 2019 to Sep 28, 2019",
+        "producers": [
+            "Aniplex, Shueisha"
+        ],
+        "studios": [
+            "ufotable"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1310/100840l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1588/108571l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1264/111392l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/6vMuWuWlW4I"
+        ],
+        "id": "5c88fa8cf4afda39709c2967"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2968",
+        "name": "Attack on Titan",
+        "rating": 8,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 25,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Military",
+            "Mystery",
+            "Shounen",
+            "Super Power"
+        ],
+        "description": "Attack on Titan, also known as Shingeki no Kyojin, is a Japanese manga series written and illustrated by Hajime Isayama. It is set in a world where humanity is on the brink of extinction due to the existence of giant humanoid creatures known as Titans. The story follows Eren Yeager and his friends as they join the military to fight against the Titans and uncover the mysteries surrounding their existence.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/10/47347l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 7, 2013 to Sep 29, 2013",
+        "producers": [
+            "Production I.G, Dentsu, Mainichi Broadcasting System, Pony Canyon, Kodansha, Mad Box, Shingeki no Kyojin Team, Pony Canyon Enterprise"
+        ],
+        "studios": [
+            "Wit Studio"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1907/134102l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/11/60593l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/13/60591l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/LHtdKWJdif4"
+        ],
+        "id": "5c88fa8cf4afda39709c2968"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2969",
+        "name": "Attack on Titan Season 2",
+        "rating": 10,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 12,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Military",
+            "Mystery",
+            "Shounen",
+            "Super Power"
+        ],
+        "description": "Attack on Titan Season 2 continues the story of Eren Yeager and his friends as they face new threats from the Titans. As they uncover more about the truth behind the Titans and the walls that protect humanity, they must fight to survive and protect their loved ones.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/4/84177l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 1, 2017 to Jun 17, 2017",
+        "producers": [
+            "Production I.G, Dentsu, Mainichi Broadcasting System, Pony Canyon, Kodansha, Mad Box, Shingeki no Kyojin Team, Pony Canyon Enterprise"
+        ],
+        "studios": [
+            "Wit Studio"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/11/80720l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/4/65641l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1532/99451l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/zLaVP8IhIuc"
+        ],
+        "id": "5c88fa8cf4afda39709c2969"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2970",
+        "name": "Attack on Titan Season 3",
+        "rating": 9,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 24,
+        "duration": "23 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Military",
+            "Mystery",
+            "Shounen",
+            "Super Power"
+        ],
+        "description": "Attack on Titan Season 3 continues the story of Eren Yeager and his friends as they face new challenges and uncover more secrets about the Titans and the world they live in. With the truth becoming clearer, they must make difficult choices and fight against powerful enemies to protect humanity.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1627/92098l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Jul 23, 2018 to Oct 15, 2018",
+        "producers": [
+            "Production I.G, Dentsu, Mainichi Broadcasting System, Pony Canyon, Kodansha, Techno Sound, Pony Canyon Enterprise"
+        ],
+        "studios": [
+            "Wit Studio"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1873/99448l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/10/88716l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/2/90036l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/EHzBhrncmac"
+        ],
+        "id": "5c88fa8cf4afda39709c2970"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2971",
+        "name": "Attack on Titan Season 3 Part 2",
+        "rating": 9.1,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 10,
+        "duration": "23 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Military",
+            "Mystery",
+            "Shounen",
+            "Super Power"
+        ],
+        "description": "Attack on Titan Season 3 Part 2 continues the story of Eren Yeager and his friends as they face the most dangerous enemies yet. With the truth about the Titans and the world they live in revealed, they must fight for their survival and the future of humanity.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1517/100633l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 29, 2019 to Jul 1, 2019",
+        "producers": [
+            "Production I.G, Dentsu, Mainichi Broadcasting System, Pony Canyon, Kodansha, Techno Sound, Pony Canyon Enterprise"
+        ],
+        "studios": [
+            "Wit Studio"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1220/106899l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1123/106897l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1217/106898l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/hKHepjfj5Tw"
+        ],
+        "id": "5c88fa8cf4afda39709c2971"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2972",
+        "name": "Attack on Titan Season 4",
+        "rating": 8,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 16,
+        "duration": "23 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Military",
+            "Mystery",
+            "Shounen",
+            "Super Power"
+        ],
+        "description": "Attack on Titan Season 4 is the final season of the series. It follows the story of Eren Yeager and his friends as they face the ultimate battle against the Titans and fight for the freedom of humanity. With new alliances and betrayals, they must make sacrifices and confront the truth about their world.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1000/110531l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Dec 7, 2020 to Mar 29, 2021",
+        "producers": [
+            "Production I.G, Dentsu, Mainichi Broadcasting System, Pony Canyon, Kodansha, Techno Sound, Pony Canyon Enterprise"
+        ],
+        "studios": [
+            "MAPPA"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1873/103180l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1384/107759l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1505/110414l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/SlNpRThS9t8"
+        ],
+        "id": "5c88fa8cf4afda39709c2972"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2973",
+        "name": "Jujutsu Kaisen",
+        "rating": 8,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 24,
+        "duration": "23 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action, Demons, Supernatural, School, Shounen"
+        ],
+        "description": "Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami. It follows the story of Yuji Itadori, a high school student with exceptional physical abilities who becomes involved in the world of curses and jujutsu sorcery after swallowing a cursed object. As he joins the Tokyo Metropolitan Jujutsu Technical High School, Yuji must learn to control his newfound powers and protect humanity from dangerous curses.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1171/109222l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Oct 3, 2020 to Mar 27, 2021",
+        "producers": [
+            "TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "MAPPA"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1937/111424l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1568/128066l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1046/107701l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/4A_X-Dvl0ws"
+        ],
+        "id": "5c88fa8cf4afda39709c2973"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2974",
+        "name": "Jujutsu Kaisen 2",
+        "rating": 9,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 23,
+        "duration": "23 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Demons",
+            "Supernatural",
+            "School",
+            "Shounen"
+        ],
+        "description": "Jujutsu Kaisen 2 continues the story of Yuji Itadori and his friends as they face new challenges and powerful curses. With the threat of the cursed spirits growing stronger, they must train harder and work together to protect humanity from the dangers that lurk in the shadows.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1600/134703l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Oct 2, 2022 to Mar 26, 2023",
+        "producers": [
+            "TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "MAPPA"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1168/128144l.jpg"
+        ],
+        "previewpic2": [
+            "https://myanimelist.net/anime/51009/Jujutsu_Kaisen_2nd_Season/pics"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1732/139397l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/PKHQuQF1S8k"
+        ],
+        "id": "5c88fa8cf4afda39709c2974"
+    },
+    {
+        "_id": "66352dfdbbf74ec5ca167dab",
+        "name": "Tokyo Revengers",
+        "rating": 1,
+        "ratingsQuantity": 2,
+        "type": "TV",
+        "episodes": 24,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Demons",
+            "Supernatural",
+            "School",
+            "Shounen"
+        ],
+        "description": "Takemichi Hanagaki's second year of middle school was the highest point in his life. He had respect, a gang of friends he could count on, and even a girlfriend. But that was twelve years ago. Today, he's a nobody: a washed-up nonentity made fun of by children and always forced to apologize to his younger boss. A sudden news report on the Tokyo Manji Gang's cruel murder of the only girlfriend he ever had alongside her brother only adds insult to injury. Half a second before a train ends his pitiful life for good, Takemichi flashes back to that same day 12 years ago, when he was still dating Hinata Tachibana.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1875/113397l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Oct 2, 2022 to Mar 26, 2023",
+        "producers": [
+            "TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "MAPPA"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1978/132529l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1591/115929l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1462/132383l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/r9M34VgTfzY"
+        ],
+        "id": "66352dfdbbf74ec5ca167dab"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2962",
+        "name": "One Punch Man 2",
+        "rating": 8,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 12,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Parody",
+            "Super Power",
+            "Supernatural",
+            "Seinen"
+        ],
+        "description": "One Punch Man 2 is the second season of the Japanese superhero webcomic created by the artist ONE. It continues the story of Saitama, a superhero who can defeat any opponent with a single punch but seeks to find a worthy opponent after growing bored with his overwhelming strength.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/1247/122044l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Apr 10, 2019 to Jul 3, 2019",
+        "producers": [
+            "TV Tokyo, Bandai Visual, Lantis, Asatsu DK, Banpresto, Good Smile Company, Shueisha, East Japan Marketing & Communications"
+        ],
+        "studios": [
+            "J.C.Staff, Shueisha"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/1797/93459l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/1585/96674l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/1802/124744l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/NezvLw2gRAY"
+        ],
+        "id": "5c88fa8cf4afda39709c2962"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2964",
+        "name": "Haikyuu!! Second Season",
+        "rating": 7.5,
+        "ratingsQuantity": 6,
+        "type": "TV",
+        "episodes": 25,
+        "duration": "24 min. per ep.",
+        "favorites": 0,
+        "genre": [
+            "Comedy",
+            "Sports",
+            "Drama",
+            "School",
+            "Shounen"
+        ],
+        "description": "Haikyuu!! Second Season continues the story of Shoyo Hinata and the Karasuno High School volleyball team as they face stronger opponents and strive to improve their skills. With new challenges and intense matches, they aim to reach new heights in the world of high school volleyball.",
+        "image": [
+            "https://cdn.myanimelist.net/images/anime/9/76662l.jpg"
+        ],
+        "status": "Finished Airing",
+        "aired": "Oct 4, 2015 to Mar 27, 2016",
+        "producers": [
+            "Mainichi Broadcasting System, TOHO animation, Shueisha"
+        ],
+        "studios": [
+            "Production I.G"
+        ],
+        "previewpic1": [
+            "https://cdn.myanimelist.net/images/anime/5/69769l.jpg"
+        ],
+        "previewpic2": [
+            "https://cdn.myanimelist.net/images/anime/5/77250l.jpg"
+        ],
+        "previewpic3": [
+            "https://cdn.myanimelist.net/images/anime/12/77749l.jpg"
+        ],
+        "previewlink": [
+            "https://www.youtube.com/embed/SIg52zW5ncM"
+        ],
+        "id": "5c88fa8cf4afda39709c2964"
+    }
+]

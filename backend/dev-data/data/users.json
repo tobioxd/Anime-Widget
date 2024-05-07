@@ -5,7 +5,7 @@
         "email": "admin@gmail.com",
         "role": "admin",
         "active": true,
-        "photo": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/431977320_1476558199886129_1775867467056951583_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Kbiq81t2pY0Q7kNvgEaZ0wk&_nc_ht=scontent-hkg1-2.xx&oh=00_AfB7ZWOLX-Mrnbyt-S4t3STkAw4nhf987KPk9cCseeKkcw&oe=662EE3D1",
+        "photo": "https://i.imgur.com/t9QwC5X.jpeg",
         "password": "$2a$12$hP1h2pnNp7wgyZNRwPsOTeZuNzWBv7vHmsR3DT/OaPSUBQT.y0S.."
     },
     {
@@ -14,7 +14,7 @@
         "email": "tony@example.com",
         "role": "user",
         "active": true,
-        "photo": "https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-1/404938124_1429949447867355_568564346949386170_n.jpg?stp=c42.0.200.200a_dst-jpg_p200x200&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3JPlgAPTToYQ7kNvgF10sS2&_nc_ht=scontent.fsgn5-6.fna&oh=00_AfDU81y4cmPGoapjgvRtCwWRC_ai1R57e1NZKAPCgORw7A&oe=662ECFF1",
+        "photo": "https://i.imgur.com/ussrTwT.jpeg",
         "password": "$2a$12$1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     },
     {
@@ -23,7 +23,7 @@
         "email": "maluong@example.com",
         "role": "user",
         "active": true,
-        "photo": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/433468505_1843695889440380_8335787787257858886_n.jpg?stp=cp6_dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yZT2aHEU63AAb7wxBxC&_nc_ht=scontent-hkg4-1.xx&oh=00_AfBmtl0u4WI9XDqZqma5JOyMCJbv7nXnO6AyC1hh9zzHRQ&oe=662EC403",
+        "photo": "https://i.imgur.com/3DlnSi0.jpeg",
         "password": "$2a$12$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
     },
     {
@@ -32,7 +32,7 @@
         "email": "dong@example.com",
         "role": "user",
         "active": true,
-        "photo": "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/412521051_1778060212635581_3726823633199998003_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Qvyev3_csyMQ7kNvgEthH7Z&_nc_ht=scontent.fhan5-10.fna&oh=00_AfCZNBNjouLk2Uq3rPcCXRetLBEYCGI-f2SGgwW-Fbwk6g&oe=662EEAC5",
+        "photo": "https://i.imgur.com/kypJqlB.jpeg",
         "password": "$2a$12$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
     },
     {
@@ -41,7 +41,7 @@
         "email": "tedomi@example.com",
         "role": "user",
         "active": true,
-        "photo": "https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/289781470_2853832891429922_4769440575987991358_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pwbKuQYf5LgQ7kNvgEM7EvM&_nc_ht=scontent.fhan5-2.fna&oh=00_AfDdNmf1orsYMEXUkCUC8DoDeIOekk-7ydxk_kXxLAYTUQ&oe=662EC02D",
+        "photo": "https://i.imgur.com/7abrwY5.jpeg",
         "password": "$2a$12$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
     },
     {
@@ -50,7 +50,7 @@
         "email": "phuoc@example.com",
         "role": "user",
         "active": true,
-        "photo": "https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/404001289_1001826610898176_7250241568326556873_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bgJ7q6Sug0gAb4KhKhV&_nc_ht=scontent.fhan5-2.fna&oh=00_AfAZh-IQdQpfc2BH3jco7PdYNFLolQbtKhm97L8MSVpVCQ&oe=662EEED1",
+        "photo": "https://i.imgur.com/r38Y0dk.jpeg",
         "password": "$2a$12$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
     },
     {
@@ -59,7 +59,7 @@
         "email": "sicon@example.com",
         "role": "user",
         "active": true,
-        "photo": "https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/379936932_1376662986542318_4871055772969002609_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QUXtkXfpmTcAb7tdTiD&_nc_ht=scontent.fhan5-2.fna&oh=00_AfATVjm9uDmPDjM1an2h3gtItZuiwChbMO4eA22YJVVKtA&oe=662EF37A",
+        "photo": "https://i.imgur.com/yYOnatA.jpeg",
         "password": "$2a$12$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
     }
 ]

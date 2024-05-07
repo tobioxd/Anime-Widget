@@ -12,6 +12,7 @@ const globalErrorHandler = require('./controllers/errorController');
 const animeRouter = require('./routes/animeRoutes');
 const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
+const favouriteAnimeRouter = require('./routes/favouriteAnimeRoutes');
 
 const app = express();
 
@@ -28,7 +29,7 @@ if(process.env.NODE_ENV === 'development') {
 
 // Limit requests from the same API
 const limiter = rateLimit({
-    max: 100,
+    max: 1000,
     windowMs: 60 * 60 * 1000,
     message: 'Too many requests from this IP, please try again in an hour!'
 });
@@ -59,6 +60,7 @@ app.use((req,res,next) => {
 app.use('/api/v1/animes', animeRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
+app.use('/api/v1/favouriteAnime', favouriteAnimeRouter);
 
 // Middleware to handle unhandled routes
 app.all('*', (req, res, next) => {

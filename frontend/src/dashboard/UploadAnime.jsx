@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Button, Checkbox, Label, TextInput, Textarea } from "flowbite-react";
+import { Button, Label, TextInput, Textarea } from "flowbite-react";
 
 const UploadAnime = () => {
   const animeCategories = [
@@ -67,10 +67,11 @@ const UploadAnime = () => {
     console.log(animeData);
 
     //send data to the server
-    fetch("http://localhost:3000/api/v1/animes", {
+    fetch(import.meta.env.VITE_BACKEND_URL + "/api/v1/animes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "Authorization": `Bearer ${localStorage.getItem("token")}`,
       },
       body: JSON.stringify(animeData),
     })

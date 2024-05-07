@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -49,7 +49,7 @@ const AnimeCard = ({ headline, animes }) => {
           {Array.isArray(animes) &&
             animes.map((anime) => (
               <SwiperSlide key={anime.id} >
-                <Link to="/" className="flex flex-col items-center h-120g">
+                <Link to={`/anime/${anime.id}`} className="flex flex-col items-center h-120g">
                   <div className="">
                     <img
                       src={anime.image}

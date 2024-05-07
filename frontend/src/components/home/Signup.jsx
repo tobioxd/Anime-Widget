@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import backgroundImage from '../../assets/background/2.jpg';
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
+  const navigate = useNavigate();
   const [nameError, setNameError] = useState("");
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
@@ -52,22 +54,6 @@ const Signup = () => {
       return;
     }
 
-    // if (password !== passwordConfirm) {
-    //   alert("Password and Confirm Password do not match");
-    //   return;
-    // }
-
-    // createUser(email, password)
-    //   .then((userCredential) => {
-    //     const user = userCredential.user;
-    //     alert("User created successfully");
-    //   })
-    //   .catch((error) => {
-    //     const errorCode = error.code;
-    //     const errorMessage = error.message;
-    //     setError(errorMessage);
-    //   });
-
     const userdata = {
       name,
       email,
@@ -77,7 +63,7 @@ const Signup = () => {
     };
 
     //send data to the server
-    fetch("http://localhost:3000/api/v1/users/signup", {
+    fetch(import.meta.env.VITE_BACKEND_URL + "/api/v1/users/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -97,6 +83,8 @@ const Signup = () => {
         } else {
           console.log("Success:", data);
           alert("User created successfully");
+          localStorage.setItem("user", JSON.stringify(data.data.user));
+          navigate("/login");
           setNameError("");
           setEmailError("");
           setPasswordError("");

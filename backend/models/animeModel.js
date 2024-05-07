@@ -1,5 +1,4 @@
 const monggoose = require('mongoose');
-const { type } = require('os');
 const slugify = require('slugify');
 
 const animeSchema = new monggoose.Schema(
@@ -15,8 +14,7 @@ const animeSchema = new monggoose.Schema(
         slug: String,
         rating: {
             type: Number,
-            default: 5,
-            min: [1, 'Rating must be above 1.0'],
+            default: 0,
             max: [10, 'Rating must be below 10.0'],
             set: val => Math.round(val * 10) / 10   
         },
@@ -83,6 +81,10 @@ const animeSchema = new monggoose.Schema(
             type: [String],
             required: [true, 'An anime must have a studio']
         },
+        previewpic1:[String],
+        previewpic2:[String],
+        previewpic3:[String],
+        previewlink:[String]
 
     },
     {

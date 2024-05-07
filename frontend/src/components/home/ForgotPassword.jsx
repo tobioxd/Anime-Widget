@@ -1,8 +1,27 @@
-import React from "react";
+import React,{useState} from "react";
 import backgroundImage from "../../assets/background/3.jpg";
 import profilepic from "../../assets/profilepic/hero.jpg";
 
 const ForgotPassword = () => {
+  const [email, setEmail] = useState("");
+
+  const handleResetPassword = () => {
+    fetch(import.meta.env.VITE_BACKEND_URL + "/api/v1/users/forgotPassword", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if(data.status === "success") {
+          alert("Password reset link sent to your email");
+        } else {
+          alert(data.message);
+        }
+      });
+  };
   return (
     <div
       className="w-screen h-screen flex items-center justify-center"
@@ -41,13 +60,16 @@ const ForgotPassword = () => {
                 className="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                 id="email"
                 type="email"
+                value = {email}
                 placeholder="Enter Email Address..."
+                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div className="mb-6 text-center">
               <button
                 className="w-full px-4 py-2 font-bold text-white bg-red-500 rounded-full hover:bg-red-700 focus:outline-none focus:shadow-outline"
                 type="button"
+                onClick={handleResetPassword}
               >
                 Reset Password
               </button>

@@ -1,18 +1,21 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import Home from "../home/Home";
-import AnimeList from "../animelist/Animelist";
+import Home from "../screen/Home";
+import AnimeList from "../screen/Animelist";
 import About from "../components/About";
-import SingleAnime from "../animelist/SingleAnime";
+import SingleAnime from "../components/animelist/SingleAnime";
 import DashboardLayout from "../dashboard/DashboardLayout";
-import Dashboard from "../dashboard/Dashboard";
 import UploadAnime from "../dashboard/UploadAnime";
 import ManageAnime from "../dashboard/ManageAnime";
 import EditAnime from "../dashboard/EditAnime";
 import SignUp from "../components/home/Signup";
 import LogIn from "../components/home/LogIn";
+import LogOut from "../components/home/LogOut";
+import UserProfile from "../components/profile/UserProfile";
+import EditInfo from "../components/profile/EditInfor";
 import ForgotPassword from "../components/home/ForgotPassword";
 import ResetPassword from "../components/home/ResetPassword";
+import ManageUser from "../dashboard/ManageUser";
 
 const router = createBrowserRouter([
   {
@@ -34,11 +37,25 @@ const router = createBrowserRouter([
       {
         path: "/anime/:id",
         element: <SingleAnime />,
-        loader: ({ params }) => fetch(`http://localhost:3000/api/v1/animes/${params.id}`)
+        loader: ({ params }) => fetch(import.meta.env.VITE_BACKEND_URL + `/api/v1/animes/${params.id}`)
       },
       {
         path: "login",
         element: <LogIn />,
+      },
+      {
+        path: "logout",
+        element: <LogOut />,
+      },
+      {
+        path: "profile/:userId",
+        element: <UserProfile />,
+        loader: ({ params }) => fetch(import.meta.env.VITE_BACKEND_URL + `/api/v1/users/${params.userId}`)
+      },
+      {
+        path: "edit-info/:userId",
+        element: <EditInfo />,
+        loader: ({ params }) => fetch(import.meta.env.VITE_BACKEND_URL + `/api/v1/users/${params.userId}`)
       },
       {
         path: "sign-up",
@@ -51,7 +68,6 @@ const router = createBrowserRouter([
       {
         path: "reset-password/:token",
         element: <ResetPassword />,
-        loader: ({ params }) => fetch(`http://localhost:3000/api/v1/users/resetPassword/${params.token}`),
       },
     ],
   },
@@ -60,12 +76,8 @@ const router = createBrowserRouter([
     element: <DashboardLayout />,
     children: [
       {
-        path: "/admin/dashboard",
-        element: <Dashboard />,
-      },
-      {
         path: "/admin/dashboard/upload-anime",
-        element: <UploadAnime />,
+        element: <UploadAnime />
       },
       {
         path: "/admin/dashboard/manage-anime",
@@ -74,7 +86,11 @@ const router = createBrowserRouter([
       {
         path: "/admin/dashboard/edit-anime/:id",
         element: <EditAnime />,
-        loader: ({ params }) => fetch(`http://localhost:3000/api/v1/animes/${params.id}`)
+        loader: ({ params }) => fetch(import.meta.env.VITE_BACKEND_URL + `/api/v1/animes/${params.id}`)
+      },
+      {
+        path: "/admin/dashboard/manage-user",
+        element: <ManageUser />,
       },
     ],
   },
