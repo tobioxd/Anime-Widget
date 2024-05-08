@@ -36,7 +36,11 @@ const MyComment = () => {
         console.error(error);
       }
       setLoaded(true);
-      const { review } = myReview;
+
+      let review;
+      if (myReview) {
+        ({ review } = myReview);
+      }
       setInputValue(review);
     };
 
@@ -101,9 +105,9 @@ const MyComment = () => {
                 className="p-4 border-1[px] border-zinc-400 text-lg font-sans"
               />
               <div className="flex justify-end">
-                <button 
+                <button
                   className="bg-sky-500 text-white hover:bg-blue-600 transition-all ease-in duration-200 p-2 text-xl"
-                  onClick={handleAddReview}  
+                  onClick={handleAddReview}
                 >
                   Add comment
                 </button>
@@ -127,9 +131,9 @@ const MyComment = () => {
                 className="p-4 border-1[px] border-zinc-400 text-lg font-sans"
               />
               <div className="flex justify-end">
-                <button 
+                <button
                   className="bg-sky-500 text-white hover:bg-blue-600 transition-all ease-in duration-200 p-2 text-xl"
-                  onClick={handleLoginReview}  
+                  onClick={handleLoginReview}
                 >
                   Add comment
                 </button>
@@ -143,7 +147,13 @@ const MyComment = () => {
 
   const { _id, review, createdAt, user } = myReview;
   const date = new Date(createdAt);
-  const formattedDate = date.toLocaleString(undefined, { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric' });
+  const formattedDate = date.toLocaleString(undefined, {
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+  });
   const { name, photo } = user || {};
 
   //console.log(name, photo, review, createdAt);

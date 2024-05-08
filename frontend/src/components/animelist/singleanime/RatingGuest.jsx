@@ -3,7 +3,7 @@ import { Button } from "flowbite-react";
 
 const Rating = () => {
   const [selectedRatingCategories, setSelectedRatingCategories] =
-    useState(null);
+    useState("");
 
   const ratingCategories = [
     "Select Rating ⭐",

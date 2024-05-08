@@ -15,7 +15,7 @@ const Animelist = () => {
   function handleRadioChange(event) {
     setFilters(event.target.value);
     setSearch("");
-    fetchFilteredAnimes(event.target.value);
+    
   }
 
   const handleFilterClick = () => {
@@ -70,29 +70,38 @@ const Animelist = () => {
   };
   useEffect(() => {
     fetchFilteredAnimes(filters);
-  }, [search, filters]);
+  }, [filters]);
+
+  const filterData = () => {
+    if (!search) {
+      return filteredAnimes;
+    }
+    return filteredAnimes.filter((item) =>
+      item.name.toLowerCase().includes(search.toLowerCase())
+    );
+  };
 
   const handleSearchChange = (event) => {
     setSearch(event.target.value);
   };
 
-  const handleSearchClick = () => {
-    console.log(search);
-    setFilteredAnimes(
-      filteredAnimes.filter((anime) =>
-        anime.name.toLowerCase().includes(search.toLowerCase())
-      )
-    );
-    console.log(filteredAnimes);
-  };
+  // const handleSearchClick = () => {
+  //   console.log(search);
+  //   setFilteredAnimes(
+  //     filteredAnimes.filter((anime) =>
+  //       anime.name.toLowerCase().includes(search.toLowerCase())
+  //     )
+  //   );
+  //   console.log(filteredAnimes);
+  // };
 
   // Calculate the index of the first and last anime on the current page
   const indexOfLastAnime = currentPage * animesPerPage;
   const indexOfFirstAnime = indexOfLastAnime - animesPerPage;
-  const totalPages = Math.ceil(filteredAnimes.length / animesPerPage);
+  const totalPages = Math.ceil(filterData().length / animesPerPage);
 
   // Get the animes for the current page
-  const currentAnimes = filteredAnimes.slice(
+  const currentAnimes = filterData().slice(
     indexOfFirstAnime,
     indexOfLastAnime
   );
@@ -106,7 +115,7 @@ const Animelist = () => {
           type="text"
           value={search}
           onChange={handleSearchChange}
-          className="w-5/6 px-4 py-2 my-4 text-lg text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 pl-10"
+          className="w-full px-4 py-2 my-4 text-lg text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 pl-10"
           placeholder="Search for an anime..."
         />
         <div className="relative">
@@ -181,12 +190,6 @@ const Animelist = () => {
             </div>
           )}
         </div>
-        <button
-          onClick={handleSearchClick}
-          className="px-4 py-2 ml-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 focus:outline-none"
-        >
-          Search
-        </button>
         <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -37,7 +37,6 @@ const router = createBrowserRouter([
       {
         path: "/anime/:id",
         element: <SingleAnime />,
-        loader: ({ params }) => fetch(import.meta.env.VITE_BACKEND_URL + `/api/v1/animes/${params.id}`)
       },
       {
         path: "login",
@@ -50,12 +49,10 @@ const router = createBrowserRouter([
       {
         path: "profile/:userId",
         element: <UserProfile />,
-        loader: ({ params }) => fetch(import.meta.env.VITE_BACKEND_URL + `/api/v1/users/${params.userId}`)
       },
       {
         path: "edit-info/:userId",
         element: <EditInfo />,
-        loader: ({ params }) => fetch(import.meta.env.VITE_BACKEND_URL + `/api/v1/users/${params.userId}`)
       },
       {
         path: "sign-up",
@@ -86,7 +83,6 @@ const router = createBrowserRouter([
       {
         path: "/admin/dashboard/edit-anime/:id",
         element: <EditAnime />,
-        loader: ({ params }) => fetch(import.meta.env.VITE_BACKEND_URL + `/api/v1/animes/${params.id}`)
       },
       {
         path: "/admin/dashboard/manage-user",
