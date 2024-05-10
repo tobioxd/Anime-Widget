@@ -5,6 +5,7 @@ const Anime = require('../../models/animeModel');
 const User = require('../../models/userModel');
 const Review = require('../../models/reviewModel');
 const FavouriteAnime = require('../../models/favouriteanimeModel');
+const Post = require('../../models/postModel');
 
 dotenv.config({ path: './config.env' });
 
@@ -34,13 +35,18 @@ const favouriteanimes = JSON.parse(
   fs.readFileSync(`${__dirname}/favouriteanime.json`, 'utf-8')
 );
 
+const posts = JSON.parse(
+  fs.readFileSync(`${__dirname}/post.json`, 'utf-8')
+);
+
 // IMPORT DATA INTO DB
 const importData = async () => {
   try {
     //await User.create(users, { validateBeforeSave: false });
-    await Anime.create(animes);
+    //await Anime.create(animes);
     //await Review.create(reviews);
     //await FavouriteAnime.create(favouriteanimes);
+    await Post.create(posts);
     console.log('Data successfully loaded!');
   } catch (err) {
     console.log(err);
@@ -51,10 +57,11 @@ const importData = async () => {
 // DELETE ALL DATA FROM DB
 const deleteData = async () => {
   try {
-    await Anime.deleteMany();
+    //await Anime.deleteMany();
     //await User.deleteMany();
     //await Review.deleteMany();
     //await FavouriteAnime.deleteMany();
+    await Post.deleteMany();
     console.log('Data successfully deleted!');
   } catch (err) {
     console.log(err);

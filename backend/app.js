@@ -13,6 +13,7 @@ const animeRouter = require('./routes/animeRoutes');
 const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const favouriteAnimeRouter = require('./routes/favouriteAnimeRoutes');
+const postRouter = require('./routes/postRoutes');
 
 const app = express();
 
@@ -61,6 +62,7 @@ app.use('/api/v1/animes', animeRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
 app.use('/api/v1/favouriteAnime', favouriteAnimeRouter);
+app.use('/api/v1/posts', postRouter);
 
 // Middleware to handle unhandled routes
 app.all('*', (req, res, next) => {

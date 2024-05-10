@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 //import './styles.css';
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Pagination,Autoplay } from "swiper/modules";
 
 const AnimeCard = ({ headline, animes }) => {
   //console.log(animes);
@@ -29,6 +29,11 @@ const AnimeCard = ({ headline, animes }) => {
           pagination={{
             clickable: true,
           }}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
           breakpoints={{
             640: {
               slidesPerView: 2,
@@ -43,7 +48,7 @@ const AnimeCard = ({ headline, animes }) => {
               spaceBetween: 50,
             },
           }}
-          modules={[Pagination]}
+          modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
           {Array.isArray(animes) &&

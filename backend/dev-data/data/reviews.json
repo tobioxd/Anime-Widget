@@ -838,5 +838,342 @@
         "rating": 9,
         "user": "5c8a1d5b0190b214360dc063",
         "anime": "5c88fa8cf4afda39709c2974"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9239",
+        "review": "This anime is a great mix of action and comedy. The characters are well-developed and the story is engaging.",
+        "rating": 5,
+        "user": "5c8a1d5b0190b214360dc058",
+        "anime": "663b29170f73f46c4a72bf03"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9240",
+        "review": "I really enjoyed watching this anime. The animation is beautiful and the soundtrack is amazing.",
+        "rating": 7,
+        "user": "5c8a1d5b0190b214360dc059",
+        "anime": "663b29170f73f46c4a72bf03"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9241",
+        "review": "This anime has a unique and intriguing storyline. It kept me hooked from the first episode.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc060",
+        "anime": "663b29170f73f46c4a72bf03"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9242",
+        "review": "The character development in this anime is excellent. I felt a strong connection to the main characters.",
+        "rating": 7,
+        "user": "5c8a1d5b0190b214360dc061",
+        "anime": "663b29170f73f46c4a72bf03"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9243",
+        "review": "I was pleasantly surprised by this anime. It exceeded my expectations and kept me entertained throughout.",
+        "rating": 7,
+        "user": "5c8a1d5b0190b214360dc062",
+        "anime": "663b29170f73f46c4a72bf03"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9244",
+        "review": "This anime has a good balance of action and drama. The story is well-paced and the characters are relatable.",
+        "rating": 7,
+        "user": "5c8a1d5b0190b214360dc063",
+        "anime": "663b29170f73f46c4a72bf03"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9245",
+        "review": "This anime is a must-watch for any anime fan. It has a captivating storyline and well-developed characters.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc058",
+        "anime": "663bc19e3dad8f741ce2c06b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9246",
+        "review": "I was blown away by the animation and visuals in this anime. It's a visual feast for the eyes.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc059",
+        "anime": "663bc19e3dad8f741ce2c06b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9247",
+        "review": "This anime has a unique and intriguing storyline. It kept me hooked from the first episode.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc060",
+        "anime": "663bc19e3dad8f741ce2c06b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9248",
+        "review": "The character development in this anime is excellent. I felt a strong connection to the main characters.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc061",
+        "anime": "663bc19e3dad8f741ce2c06b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9249",
+        "review": "I was pleasantly surprised by this anime. It exceeded my expectations and kept me entertained throughout.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc062",
+        "anime": "663bc19e3dad8f741ce2c06b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9250",
+        "review": "This anime has a good balance of action and drama. The story is well-paced and the characters are relatable.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc063",
+        "anime": "663bc19e3dad8f741ce2c06b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9251",
+        "review": "This anime has a captivating storyline and well-developed characters. It kept me engaged from start to finish.",
+        "rating": 8,
+        "user": "5c8a1d5b0190b214360dc058",
+        "anime": "663bc2b83dad8f741ce2c09b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9252",
+        "review": "The animation and visuals in this anime are stunning. It's a visual treat for the eyes.",
+        "rating": 8,
+        "user": "5c8a1d5b0190b214360dc059",
+        "anime": "663bc2b83dad8f741ce2c09b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9253",
+        "review": "This anime has an intriguing and unique storyline. It kept me hooked from the first episode.",
+        "rating": 8,
+        "user": "5c8a1d5b0190b214360dc060",
+        "anime": "663bc2b83dad8f741ce2c09b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9254",
+        "review": "The character development in this anime is impressive. I felt a strong connection to the main characters.",
+        "rating": 8,
+        "user": "5c8a1d5b0190b214360dc061",
+        "anime": "663bc2b83dad8f741ce2c09b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9255",
+        "review": "I was pleasantly surprised by this anime. It exceeded my expectations and kept me entertained throughout.",
+        "rating": 8,
+        "user": "5c8a1d5b0190b214360dc062",
+        "anime": "663bc2b83dad8f741ce2c09b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9256",
+        "review": "This anime strikes a good balance between action and drama. The story is well-paced and the characters are relatable.",
+        "rating": 8,
+        "user": "5c8a1d5b0190b214360dc063",
+        "anime": "663bc2b83dad8f741ce2c09b"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9257",
+        "review": "This anime is absolutely amazing. The storyline is captivating and the characters are well-developed. I couldn't stop watching!",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc058",
+        "anime": "663bc33c3dad8f741ce2c0a6"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9258",
+        "review": "I highly recommend this anime to any anime fan. It has a perfect blend of action and drama. The animation is top-notch.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc059",
+        "anime": "663bc33c3dad8f741ce2c0a6"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9259",
+        "review": "This anime exceeded my expectations. The storyline is unique and keeps you engaged. The character development is impressive.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc060",
+        "anime": "663bc33c3dad8f741ce2c0a6"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9260",
+        "review": "I was hooked from the first episode of this anime. The visuals are stunning and the soundtrack is amazing.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc061",
+        "anime": "663bc33c3dad8f741ce2c0a6"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9261",
+        "review": "This anime is a masterpiece. The storytelling is brilliant and the emotional impact is profound.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc062",
+        "anime": "663bc33c3dad8f741ce2c0a6"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9262",
+        "review": "I can't recommend this anime enough. It's a must-watch for any anime fan. The plot twists will keep you on the edge of your seat.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc063",
+        "anime": "663bc33c3dad8f741ce2c0a6"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9263",
+        "review": "This anime is a masterpiece. The storytelling is brilliant and the emotional impact is profound.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc058",
+        "anime": "663bc3a53dad8f741ce2c0b9"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9264",
+        "review": "I highly recommend this anime to any anime fan. It has a perfect blend of action and drama. The animation is top-notch.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc059",
+        "anime": "663bc3a53dad8f741ce2c0b9"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9265",
+        "review": "This anime exceeded my expectations. The storyline is unique and keeps you engaged. The character development is impressive.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc060",
+        "anime": "663bc3a53dad8f741ce2c0b9"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9266",
+        "review": "I was hooked from the first episode of this anime. The visuals are stunning and the soundtrack is amazing.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc061",
+        "anime": "663bc3a53dad8f741ce2c0b9"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9267",
+        "review": "This anime is a masterpiece. The storytelling is brilliant and the emotional impact is profound.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc062",
+        "anime": "663bc3a53dad8f741ce2c0b9"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9268",
+        "review": "I can't recommend this anime enough. It's a must-watch for any anime fan. The plot twists will keep you on the edge of your seat.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc063",
+        "anime": "663bc3a53dad8f741ce2c0b9"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9269",
+        "review": "This anime is absolutely amazing. The storyline is captivating and the characters are well-developed. I couldn't stop watching!",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc058",
+        "anime": "663bc4143dad8f741ce2c0c8"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9270",
+        "review": "I highly recommend this anime to any anime fan. It has a perfect blend of action and drama. The animation is top-notch.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc059",
+        "anime": "663bc4143dad8f741ce2c0c8"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9271",
+        "review": "This anime exceeded my expectations. The storyline is unique and keeps you engaged. The character development is impressive.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc060",
+        "anime": "663bc4143dad8f741ce2c0c8"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9272",
+        "review": "I was hooked from the first episode of this anime. The visuals are stunning and the soundtrack is amazing.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc061",
+        "anime": "663bc4143dad8f741ce2c0c8"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9273",
+        "review": "This anime is a masterpiece. The storytelling is brilliant and the emotional impact is profound.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc062",
+        "anime": "663bc4143dad8f741ce2c0c8"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9274",
+        "review": "I can't recommend this anime enough. It's a must-watch for any anime fan. The plot twists will keep you on the edge of your seat.",
+        "rating": 9,
+        "user": "5c8a1d5b0190b214360dc063",
+        "anime": "663bc4143dad8f741ce2c0c8"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9275",
+        "review": "This anime is absolutely incredible. The storyline is gripping and the characters are unforgettable. I couldn't get enough of it!",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc058",
+        "anime": "663bc4a23dad8f741ce2c0d3"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9276",
+        "review": "I highly recommend this anime to any anime fan. It's a true masterpiece. The animation and soundtrack are top-notch.",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc059",
+        "anime": "663bc4a23dad8f741ce2c0d3"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9277",
+        "review": "This anime blew me away. The storytelling is flawless and the emotional depth is unparalleled. A must-watch!",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc060",
+        "anime": "663bc4a23dad8f741ce2c0d3"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9278",
+        "review": "I was completely captivated by this anime. The visuals are stunning and the character development is superb.",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc061",
+        "anime": "663bc4a23dad8f741ce2c0d3"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9279",
+        "review": "This anime is a work of art. The attention to detail is remarkable and the story will stay with you long after it ends.",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc062",
+        "anime": "663bc4a23dad8f741ce2c0d3"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9280",
+        "review": "I can't express how much I loved this anime. It's a true masterpiece that deserves all the praise it receives.",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc063",
+        "anime": "663bc4a23dad8f741ce2c0d3"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9281",
+        "review": "This anime is absolutely amazing. The storyline is captivating and the characters are well-developed. I couldn't stop watching!",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc058",
+        "anime": "663bc5813dad8f741ce2c0e4"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9282",
+        "review": "I highly recommend this anime to any anime fan. It has a perfect blend of action and drama. The animation is top-notch.",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc059",
+        "anime": "663bc5813dad8f741ce2c0e4"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9283",
+        "review": "This anime exceeded my expectations. The storyline is unique and keeps you engaged. The character development is impressive.",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc060",
+        "anime": "663bc5813dad8f741ce2c0e4"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9284",
+        "review": "I was hooked from the first episode of this anime. The visuals are stunning and the soundtrack is amazing.",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc061",
+        "anime": "663bc5813dad8f741ce2c0e4"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9285",
+        "review": "This anime is a masterpiece. The storytelling is brilliant and the emotional impact is profound.",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc062",
+        "anime": "663bc5813dad8f741ce2c0e4"
+    },
+    {
+        "_id": "5c8a34ed14eb5c17645c9286",
+        "review": "I can't recommend this anime enough. It's a must-watch for any anime fan. The plot twists will keep you on the edge of your seat.",
+        "rating": 10,
+        "user": "5c8a1d5b0190b214360dc063",
+        "anime": "663bc5813dad8f741ce2c0e4"
     }
+
 ]

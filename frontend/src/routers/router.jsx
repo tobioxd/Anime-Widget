@@ -16,6 +16,7 @@ import EditInfo from "../components/profile/EditInfor";
 import ForgotPassword from "../components/home/ForgotPassword";
 import ResetPassword from "../components/home/ResetPassword";
 import ManageUser from "../dashboard/ManageUser";
+import Forum from "../screen/Forum";
 
 const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
         path: "reset-password/:token",
         element: <ResetPassword />,
       },
+      {
+        path: "forum",
+        element: <Forum />,
+      }
     ],
   },
   {
