@@ -25,11 +25,8 @@ const Comment = () => {
     return (
       <div>
         <span className="flex flex-col w-full max-w-6xl mx-auto text-bold text-xl text-red-600 ">
-          Other Comments
+          Other Reviews
         </span>
-        <div className="flex justify-center items-center w-full h-64 bg-gray-200">
-          <span className="text-lg font-bold">No comments found</span>
-        </div>
       </div>
     );
   }
@@ -38,7 +35,7 @@ const Comment = () => {
   return (
     <div>
       <span className="flex flex-col w-full max-w-6xl mx-auto text-bold text-xl text-red-600 ">
-        Other Comments
+        Other Reviews
       </span>
       <div className="flex justify-center items-start w-full">
         <div className="flex flex-col w-full max-w-6xl mx-auto">
@@ -51,7 +48,7 @@ const Comment = () => {
               <div className="flex justify-between items-center">
                 <div className="flex items-center">
                   <img
-                    src={comment.user.photo}
+                    src={`/images/${comment.user.photo}`}
                     alt="user"
                     className="w-12 h-12 rounded-full cursor-pointer "
                     onClick={() => window.location.replace(`/profile/${comment.user._id}`)}

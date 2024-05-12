@@ -6,6 +6,7 @@ const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const cors = require('cors');
+const multer = require('multer');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');    
@@ -14,6 +15,8 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const favouriteAnimeRouter = require('./routes/favouriteAnimeRoutes');
 const postRouter = require('./routes/postRoutes');
+const reactionRouter = require('./routes/reactionRoutes');
+const commentRouter = require('./routes/commentRoutes');
 
 const app = express();
 
@@ -63,6 +66,30 @@ app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
 app.use('/api/v1/favouriteAnime', favouriteAnimeRouter);
 app.use('/api/v1/posts', postRouter);
+app.use('/api/v1/reactions', reactionRouter);
+app.use('/api/v1/comments', commentRouter);
+
+//Upload image
+//Upload file
+const storage = multer.diskStorage({
+    destination: function(req, file, cb) {
+        cb(null, '../frontend/public/images/');
+    },
+    filename: function(req, file, cb) {
+        cb(null, file.originalname);
+    }
+});
+
+const upload = multer({ storage: storage });
+
+app.post('/api/v1/upload', upload.single('file'), (req, res) => {
+    console.log(req.file);
+    res.status(200).json({
+        status: 'success',
+        message: 'File uploaded successfully'
+    });
+});
+    
 
 // Middleware to handle unhandled routes
 app.all('*', (req, res, next) => {

@@ -1,14 +1,13 @@
 import React from "react";
 
-const MyCommentGuest = () => {
+const NewReplyCommentGuest = () => {
   const handleLoginReview = () => {
-    alert("You have to login to post review ! Please login first.");
+    alert("You have to login to comment ! Please login first.");
   };
-
   return (
-    <div>
+    <div className="mt-10">
       <span className="flex flex-col w-full max-w-6xl mx-auto text-bold text-xl text-red-600">
-        Comment
+        New Comment
       </span>
       <div className="flex justify-center items-start w-full">
         <div className="flex flex-col w-full max-w-6xl mx-auto">
@@ -32,4 +31,4 @@ const MyCommentGuest = () => {
   );
 };
 
-export default MyCommentGuest;
+export default NewReplyCommentGuest;

@@ -9,17 +9,21 @@ exports.setReactionUserIds = (req, res, next) => {
 };
 
 exports.getReactionbyUserIds = async (req, res, next) => {
-  const { userId } = req.params;
-  
-  // Use userId and postId to find the reaction
-  const reaction = await Reaction.find({ user: userId });
-
-  if (!reaction) {
-    return next(new AppError("No reaction found with that ID", 404));
-  }
+  const reaction = await Reaction.find({
+    user: req.params.userId,
+  });
 
   res.status(200).json(reaction);
 };
+
+exports.getReactionbyPostIds = async (req, res, next) => {
+  const reaction = await Reaction.find({
+    user: req.params.userId,
+    post: req.params.postId,
+  });
+
+  res.status(200).json(reaction);
+}
 
 exports.getAllReactions = factory.getAll(Reaction);
 exports.getReaction = factory.getOne(Reaction);

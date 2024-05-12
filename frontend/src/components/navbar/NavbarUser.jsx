@@ -98,7 +98,7 @@ const Navbar = () => {
             <div className="flex items-center ml-auto">
               {/*userprofile*/}
               <img
-                src={profilepic}
+                src={`/images/${profilepic}`}
                 alt={user.name}
                 className="w-10 h-10 rounded-full cursor-pointer "
                 onClick={toggleMenuUser}

@@ -21,6 +21,12 @@ exports.deleteReplycommentbyCommentId = async (req, res, next) => {
   });
 };
 
+exports.getAllReplycommentsbyCommentId = async (req, res, next) => {
+  const comments = await ReplyComment.find({ comment: req.params.commentId });  
+  
+  res.status(200).json(comments);
+}
+
 exports.getAllReplycomments = factory.getAll(ReplyComment);
 exports.getReplycomment = factory.getOne(ReplyComment);
 exports.createReplycomment = factory.createOne(ReplyComment);

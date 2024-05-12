@@ -8,6 +8,8 @@ router.route("/").get(reactionController.getAllReactions);
 
 router.route("/:userId").get(reactionController.getReactionbyUserIds);
 
+router.route("/:userId/:postId").get(reactionController.getReactionbyPostIds);
+
 router.use(authController.protect);
 
 router.use(authController.restricTo("user"));

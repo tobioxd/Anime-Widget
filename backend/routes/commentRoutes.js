@@ -10,7 +10,11 @@ router.use("/:commentId/replycomments", replycommentRouter);
 
 router.route("/:commentId/deletereplys").delete(ReplycommentController.deleteReplycommentbyCommentId);
 
+router.route("/:commentId/allreplycomments").get(ReplycommentController.getAllReplycommentsbyCommentId);
+
 router.route("/").get(commentController.getAllComments);
+
+router.route("/post/:postId").get(commentController.getAllCommentsByPostId);
 
 router.route("/:id").get(commentController.getComment);
 

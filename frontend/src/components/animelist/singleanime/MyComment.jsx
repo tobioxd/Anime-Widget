@@ -92,24 +92,24 @@ const MyComment = () => {
       return (
         <div>
           <span className="flex flex-col w-full max-w-6xl mx-auto text-bold text-xl text-red-600">
-            Comment
+            Review
           </span>
           <div className="flex justify-center items-start w-full">
             <div className="flex flex-col w-full max-w-6xl mx-auto">
               <div className="flex flex-col bg-white-700 p-4 text-xl w-full"></div>
               <input
                 type="text"
-                placeholder={"Write your comment here"}
+                placeholder={"Write your review here"}
                 value={newReview}
                 onChange={handlenewChange}
                 className="p-4 border-1[px] border-zinc-400 text-lg font-sans"
               />
               <div className="flex justify-end">
                 <button
-                  className="bg-sky-500 text-white hover:bg-blue-600 transition-all ease-in duration-200 p-2 text-xl"
+                  className="bg-sky-400 text-white hover:bg-blue-600 transition-all ease-in duration-200 p-2 text-xl"
                   onClick={handleAddReview}
                 >
-                  Add comment
+                  Add Review
                 </button>
               </div>
             </div>
@@ -120,22 +120,22 @@ const MyComment = () => {
       return (
         <div>
           <span className="flex flex-col w-full max-w-6xl mx-auto text-bold text-xl text-red-600">
-            Comment
+            Review
           </span>
           <div className="flex justify-center items-start w-full">
             <div className="flex flex-col w-full max-w-6xl mx-auto">
               <div className="flex flex-col bg-white-700 p-4 text-xl w-full"></div>
               <input
                 type="text"
-                placeholder={"Write your comment here"}
+                placeholder={"Write your review here"}
                 className="p-4 border-1[px] border-zinc-400 text-lg font-sans"
               />
               <div className="flex justify-end">
                 <button
-                  className="bg-sky-500 text-white hover:bg-blue-600 transition-all ease-in duration-200 p-2 text-xl"
+                  className="bg-sky-400 text-white hover:bg-blue-600 transition-all ease-in duration-200 p-2 text-xl"
                   onClick={handleLoginReview}
                 >
-                  Add comment
+                  Add Review
                 </button>
               </div>
             </div>
@@ -224,16 +224,16 @@ const MyComment = () => {
   return (
     <div>
       <span className="flex flex-col w-full max-w-6xl mx-auto text-bold text-xl text-red-600">
-        My Comment
+        My Review
       </span>
       <div className="flex justify-center items-start w-full">
         <div className="flex flex-col w-full max-w-6xl mx-auto">
           <div className="flex flex-col bg-white-700 p-4 text-xl w-full">
             <div className="flex justify-between">
               <div className="flex">
-                <div className="w-10 h-10 text-center rounded-full bg-red-500">
+                <div className="w-10 h-10 text-center rounded-full bg-red-400">
                   <img
-                    src={photo}
+                    src={`/images/${photo}`}
                     alt={name}
                     className="w-10 h-10 rounded-full"
                   />
@@ -257,7 +257,7 @@ const MyComment = () => {
               <span className="">{formattedDate} </span>
               {isEditing ? (
                 <button
-                  className="bg-sky-500 text-white hover:bg-blue-600 transition-all ease-in duration-200 p-2 text-xl"
+                  className="bg-sky-400 text-white hover:bg-blue-600 transition-all ease-in duration-200 p-2 text-xl"
                   onClick={handleSaveButton}
                 >
                   Save
@@ -265,13 +265,13 @@ const MyComment = () => {
               ) : (
                 <div className="">
                   <button
-                    className="w-2/3 bg-sky-500 text-white hover:bg-blue-600 transition-all ease-in duration-200"
+                    className="w-2/3 bg-sky-400 text-white hover:bg-blue-600 transition-all ease-in duration-200"
                     onClick={handleEditButton}
                   >
                     Edit
                   </button>
                   <button
-                    className="w-2/3 bg-red-500 text-white hover:bg-red-600 transition-all ease-in duration-200"
+                    className="w-2/3 bg-red-400 text-white hover:bg-red-600 transition-all ease-in duration-200"
                     onClick={handleDeleteButton}
                   >
                     Delete

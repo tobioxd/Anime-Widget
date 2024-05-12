@@ -24,6 +24,8 @@ const reactionSchema = new mongoose.Schema(
   }
 );
 
+reactionSchema.index({ post: 1, user: 1 }, { unique: true });
+
 reactionSchema.statics.calcLikesAndDislikes = async function (
   postId
 ) {

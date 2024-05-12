@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import FavouriteAnime from "./FavouriteAnime";
 import MyProfile from "./MyProfile";
+import PostGuest from "./PostGuest";
 
 const UserProfile = () => {
   const { userId } = useParams();
-  console.log(userId);
   const [user, setUser] = useState(null);
   const curUser = localStorage.getItem("user");
 
@@ -17,7 +17,6 @@ const UserProfile = () => {
         );
         const data = await response.json();
         setUser(data);
-        console.log(data);
       } catch (error) {
         console.error(error);
       }
@@ -32,14 +31,12 @@ const UserProfile = () => {
 
   const { name, bio, photo } = user;
 
-  
-
   if (curUser && JSON.parse(curUser)._id === userId){
     return (
       <div className="mt-28 px-4 lg:px24">
         <div className="flex flex-col items-center">
           <img
-            src={photo}
+            src={`/images/${photo}`}
             alt=""
             className="w-40 h-40 rounded-full object-cover"
           />
@@ -54,7 +51,7 @@ const UserProfile = () => {
       <div className="mt-28 px-4 lg:px24">
         <div className="flex flex-col items-center">
           <img
-            src={photo}
+            src={`/images/${photo}`}
             alt=""
             className="w-40 h-40 rounded-full object-cover"
           />
@@ -62,6 +59,7 @@ const UserProfile = () => {
           <p className="text-2xl text-center">{bio}</p>
         </div>
         <FavouriteAnime  />
+        <PostGuest />
       </div>
     );
   }

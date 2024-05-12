@@ -12,7 +12,7 @@ const AnimeInfor = () => {
     const fetchAnime = async () => {
       try {
         const response = await fetch(
-          import.meta.env.VITE_BACKEND_URL + `/api/v1/animes//${id}`
+          import.meta.env.VITE_BACKEND_URL + `/api/v1/animes/${id}`
         );
         const data = await response.json();
         setAnime(data);

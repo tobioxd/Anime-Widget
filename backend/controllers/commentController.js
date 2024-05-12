@@ -8,6 +8,12 @@ exports.setCommentUserIds = (req, res, next) => {
   next();
 };
 
+exports.getAllCommentsByPostId = async (req, res, next) => {
+  const comments = await Comment.find({ post: req.params.postId });
+
+  res.status(200).json(comments);
+};
+
 exports.getAllComments = factory.getAll(Comment);
 exports.getComment = factory.getOne(Comment);
 exports.createComment = factory.createOne(Comment);

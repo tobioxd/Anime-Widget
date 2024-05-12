@@ -14,11 +14,6 @@ const postSchema = new mongoose.Schema(
       type: Date,
       default: Date.now(),
     },
-    anime: {
-      type: mongoose.Schema.ObjectId,
-      ref: "Anime",
-      required: [true, "Post must belong to an anime"],
-    },
     user: {
       type: mongoose.Schema.ObjectId,
       ref: "User",
@@ -52,14 +47,6 @@ postSchema.pre(/^find/, function (next) {
   this.populate({
     path: "user",
     select: "name photo",
-  });
-  next();
-});
-
-postSchema.pre(/^find/, function (next) {
-  this.populate({
-    path: "anime",
-    select: "name image",
   });
   next();
 });

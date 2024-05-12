@@ -17,6 +17,7 @@ import ForgotPassword from "../components/home/ForgotPassword";
 import ResetPassword from "../components/home/ResetPassword";
 import ManageUser from "../dashboard/ManageUser";
 import Forum from "../screen/Forum";
+import Post from "../components/forums/Post";
 
 const router = createBrowserRouter([
   {
@@ -70,7 +71,11 @@ const router = createBrowserRouter([
       {
         path: "forum",
         element: <Forum />,
-      }
+      },
+      {
+        path: "/forum/:id",
+        element: <Post />,
+      },
     ],
   },
   {
