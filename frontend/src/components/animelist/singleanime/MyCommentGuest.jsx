@@ -8,7 +8,7 @@ const MyCommentGuest = () => {
   return (
     <div>
       <span className="flex flex-col w-full max-w-6xl mx-auto text-bold text-xl text-red-600">
-        Comment
+        Review
       </span>
       <div className="flex justify-center items-start w-full">
         <div className="flex flex-col w-full max-w-6xl mx-auto">
@@ -23,7 +23,7 @@ const MyCommentGuest = () => {
               className="bg-sky-400 text-white hover:bg-blue-600 transition-all ease-in duration-200 p-2 text-xl"
               onClick={handleLoginReview}
             >
-              Add comment
+              Add review
             </button>
           </div>
         </div>

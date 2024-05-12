@@ -83,7 +83,7 @@ const EditInfo = () => {
           </div>
         </div>
         <div className="mb-80 mr-20">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Edit Info</h1>
+          <h1 className="text-2xl font-bold text-gray-800 mb-4">Edit Info</h1>
           <div className="flex flex-col items-left justify-center">
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"

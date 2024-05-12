@@ -48,7 +48,7 @@ function PostGuest() {
   return (
     <div className="mt-40 mb-10 w-3/4 mx-auto">
       <h2 className="text-4xl font-bold text-center mb-10">
-        All Post of {user.name} are here
+        All Posts of {user.name} are here
       </h2>
       {currentPosts.map(
         (post) =>

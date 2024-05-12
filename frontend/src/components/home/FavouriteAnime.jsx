@@ -15,7 +15,7 @@ const FavouriteAnime = () => {
 
   return (
     <div >
-        <AnimeCard animes={animes} headline="Best Rating Anime"/>
+        <AnimeCard animes={animes} headline="Best Rating Animes"/>
     </div>
   )
 }
