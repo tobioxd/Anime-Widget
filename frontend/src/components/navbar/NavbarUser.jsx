@@ -57,6 +57,10 @@ const Navbar = () => {
         fetch(import.meta.env.VITE_BACKEND_URL + `/api/v1/users/${userId}`),
     },
     {
+      label: "Inbox",
+      path: "/inbox",
+    },
+    {
       label: "Logout",
       path: "/logout",
     },

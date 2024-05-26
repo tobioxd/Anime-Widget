@@ -67,6 +67,17 @@ exports.getUserList = (req, res, next) => {
   next();
 };
 
+exports.getUsersForSidebar = async (req, res, next) => {
+  try {
+    const loggedInUser = req.user._id;
+
+    const filteredUsers = await User.find({ _id: { $ne: loggedInUser } });
+    
+    res.status(200).json(filteredUsers);
+  } catch(err) {
+    console.log(err.message);
+  }
+};
 // Do NOT update passwords with this!
 exports.getAllUsers = factory.getAll(User);
 exports.getUser = factory.getOne(User);

@@ -18,6 +18,7 @@ import ResetPassword from "../components/home/ResetPassword";
 import ManageUser from "../dashboard/ManageUser";
 import Forum from "../screen/Forum";
 import Post from "../components/forums/Post";
+import Inbox from "../screen/Inbox"
 
 const router = createBrowserRouter([
   {
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
       {
         path: "/forum/:id",
         element: <Post />,
+      },
+      {
+        path: "/inbox",
+        element: <Inbox />,
       },
     ],
   },

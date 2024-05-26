@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar/>
       
-      <div className='min-h-screen'>
+      <div className='min-h-[77vh]'>
         <Outlet />
       </div>
 

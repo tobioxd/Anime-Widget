@@ -17,6 +17,7 @@ const favouriteAnimeRouter = require('./routes/favouriteAnimeRoutes');
 const postRouter = require('./routes/postRoutes');
 const reactionRouter = require('./routes/reactionRoutes');
 const commentRouter = require('./routes/commentRoutes');
+const messageRouter = require('./routes/messageRoutes');
 
 const app = express();
 
@@ -68,6 +69,7 @@ app.use('/api/v1/favouriteAnime', favouriteAnimeRouter);
 app.use('/api/v1/posts', postRouter);
 app.use('/api/v1/reactions', reactionRouter);
 app.use('/api/v1/comments', commentRouter);
+app.use('/api/v1/messages', messageRouter);
 
 //Upload image
 //Upload file
