@@ -3,6 +3,7 @@ import { Button, Label, TextInput } from "flowbite-react";
 import TextareaAutosize from "react-textarea-autosize";
 
 const NewPost = () => {
+  const user = localStorage.getItem("user");
   const privacyOptions = ["public", "private"];
 
   const [selectedPrivacy, setSelectedPrivacy] = useState(privacyOptions[0]);
@@ -16,7 +17,11 @@ const NewPost = () => {
     e.preventDefault();
     const form = e.target;
 
-    const title = form.title.value;
+    if(!user) {
+      alert("Please login to add a post");
+      return;
+    }else{
+      const title = form.title.value;
     const post = form.post.value;
     const privacy = form.privacy.value;
 
@@ -44,6 +49,7 @@ const NewPost = () => {
       .catch((error) => {
         console.error("Error:", error);
       });
+    }
   };
 
   return (
