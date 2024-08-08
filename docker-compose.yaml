@@ -1,0 +1,16 @@
+services:
+  animewidget_frontend:
+    image: animewidget_frontend:latest
+    ports:
+      - 80:80
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    
+  animewidget_backend:
+    image: animewidget_backend:latest
+    ports:
+      - 3000:3000
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
