@@ -45,7 +45,7 @@ importers:
         specifier: ^1.10.0
         version: 1.10.0
       multer:
-        specifier: ^1.4.5-lts.1
+        specifier: 1.4.5-lts.1
         version: 1.4.5-lts.1
       myanimelist:
         specifier: 'file:'
