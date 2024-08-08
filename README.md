@@ -35,21 +35,31 @@ EMAIL_HOST=sandbox.smtp.mailtrap.io
 VITE_BACKEND_URL=http://192.168.191.189:3000
 ```
 
-### III. Run the project
+### III. Run the project on device
 
-* Run the backend
+* Run the backend 
 ```
 cd backend
-npm run start:dev
+pnpm install
+pnpm run start:dev
 ```
 
 * Run the frontend
 ```
 cd frontend
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 * When finish, open http://localhost:5173/ to view the website. You can also open on others computers connected network with your computer by wifi, Radmin VPN, Zerotier and remember to change the BACKEND_URL on frontend the same as backend to fetch data .
+
+### IV. Run the project on docker
+
+```
+docker compose up -d
+```
+
+* When finish, open http://localhost/ to view the website.
 
 Happy coding!
 
